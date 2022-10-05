@@ -31,9 +31,25 @@ In React 18, only the `UNSAFE_` names work for these deprecated lifecycle method
 - `UNSAFE_componentWillReceiveProps`
 - `UNSAFE_componentWillUpdate`
 
+### Component Lifecycle Methods Docs
+
+- https://reactjs.org/docs/react-component.html
+- https://reactjs.org/blog/2018/03/27/update-on-async-rendering.html
+
 ## Refs
 
-TODO
+Refs can be created several different ways:
+
+- `React.createRef()`
+- `useRef` hook
+- Callback refs
+- Legacy string refs
+
+`React.createRef()` and the `useRef` hook are the current recommended approaches. Callback refs are discouraged, and string refs are deprecated.
+
+### Refs Docs
+
+- https://reactjs.org/docs/refs-and-the-dom.html
 
 ## findDOMNode
 

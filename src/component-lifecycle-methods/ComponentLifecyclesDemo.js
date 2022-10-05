@@ -47,13 +47,11 @@ export class ComponentLifecyclesDemo extends Component {
     render() {
     return (
         <div className="section">
-            <header>
-                <h2>React Component Lifecycle Hooks</h2>
-            </header>
+            <h2>React Component Lifecycle Methods</h2>
 
             <div>
                 <p>Open up your JavaScript Console to see what's logged as you interact with the app.</p>
-                <p>The <a href="https://reactjs.org/docs/react-component.html" target="_blank" rel="noopener noreferrer">React Component documentation</a> will be incredibly helpful in understanding the inner-workings of React.</p>
+                <p>The <a href="https://reactjs.org/docs/react-component.html" target="_blank" rel="noopener noreferrer">React Component documentation</a> will be incredibly helpful in understanding the inner workings of React.</p>
             </div>
 
             <div className="buttonContainer container">
