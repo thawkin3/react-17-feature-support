@@ -1,7 +1,6 @@
 import React, { useRef } from 'react';
 
 export function UseRefDemo() {
-  // textInput must be declared here so the ref can refer to it
   const textInput = useRef(null);
 
   function focusTextInput() {
