@@ -45,7 +45,7 @@ Refs can be created several different ways:
 - Callback refs
 - Legacy string refs
 
-`React.createRef()` and the `useRef` hook are the current recommended approaches. Callback refs are discouraged, and string refs are deprecated.
+`React.createRef()` and the `useRef` hook are the current recommended approaches. Callback refs are discouraged, and string refs are deprecated. But, all four of these approaches still work in React 17.
 
 ### Refs Docs
 
