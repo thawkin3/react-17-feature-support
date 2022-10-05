@@ -6,7 +6,7 @@ export class CallbackRefDemo extends Component {
 
     this.textInput = null;
 
-    this.setTextInputRef = element => {
+    this.setTextInputRef = (element) => {
       this.textInput = element;
     };
 
@@ -21,16 +21,13 @@ export class CallbackRefDemo extends Component {
     return (
       <div>
         <h3>Callback Ref</h3>
-        <label>Username
-          <input
-            type="text"
-            ref={this.setTextInputRef}
-          />
+        <label>
+          Username
+          <input type="text" ref={this.setTextInputRef} />
         </label>
-        <button
-          type="button"
-          onClick={this.focusTextInput}
-        >Focus the text input</button>
+        <button type="button" onClick={this.focusTextInput}>
+          Focus the text input
+        </button>
       </div>
     );
   }

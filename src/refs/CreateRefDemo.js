@@ -16,16 +16,13 @@ export class CreateRefDemo extends Component {
     return (
       <div>
         <h3>React.createRef()</h3>
-        <label>Username
-          <input
-            type="text"
-            ref={this.textInput}
-          />
+        <label>
+          Username
+          <input type="text" ref={this.textInput} />
         </label>
-        <button
-          type="button"
-          onClick={this.focusTextInput}
-        >Focus the text input</button>
+        <button type="button" onClick={this.focusTextInput}>
+          Focus the text input
+        </button>
       </div>
     );
   }

@@ -4,20 +4,27 @@
   "private": true,
   "homepage": "http://tylerhawkins.info/react-17-feature-support/build/",
   "description": "This demo app shows what functionality does or does not work in React 17. This is meant to help guide teams in upgrading their apps from React 16 to React 17.",
+  "scripts": {
+    "build": "react-scripts build",
+    "eject": "react-scripts eject",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "format:watch": "onchange . -- prettier --write {{changed}}",
+    "start": "react-scripts start",
+    "test": "react-scripts test"
+  },
   "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "web-vitals": "^1.0.1"
+  },
+  "devDependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-scripts": "4.0.3",
-    "web-vitals": "^1.0.1"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "onchange": "^7.1.0",
+    "prettier": "^2.7.1",
+    "react-scripts": "4.0.3"
   },
   "eslintConfig": {
     "extends": [

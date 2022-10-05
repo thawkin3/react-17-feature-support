@@ -16,16 +16,13 @@ export class LegacyStringRefDemo extends Component {
     return (
       <div>
         <h3>Legacy String Ref</h3>
-        <label>Username
-          <input
-            type="text"
-            ref="textInput"
-          />
+        <label>
+          Username
+          <input type="text" ref="textInput" />
         </label>
-        <button
-          type="button"
-          onClick={this.focusTextInput}
-        >Focus the text input</button>
+        <button type="button" onClick={this.focusTextInput}>
+          Focus the text input
+        </button>
       </div>
     );
   }
