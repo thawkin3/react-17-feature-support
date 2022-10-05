@@ -53,4 +53,12 @@ Refs can be created several different ways:
 
 ## findDOMNode
 
-TODO
+`findDOMNode` is an escape hatch used to access the underlying DOM node. In most cases, use of this escape hatch is discouraged because it pierces the component abstraction.
+
+In most cases, you can attach a ref to the DOM node and avoid using `findDOMNode` at all.
+
+`findDOMNode` still works in React 17.
+
+### findDOMNode Docs
+
+- https://reactjs.org/docs/react-dom.html#finddomnode
