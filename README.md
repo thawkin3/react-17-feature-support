@@ -2,6 +2,11 @@
 
 This demo app shows what functionality does or does not work in React 17. This is meant to help guide teams in upgrading their apps from React 16 to React 17.
 
+## React 17 Blog Posts
+
+- https://reactjs.org/blog/2020/10/20/react-v17.html
+- https://reactjs.org/blog/2020/08/10/react-v17-rc.html#other-breaking-changes
+
 ## Component Lifecycle Methods
 
 Class components use lifecycle methods. Three of them have been deprecated since React v16.3 in March 2018:
